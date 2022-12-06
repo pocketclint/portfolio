@@ -3,6 +3,8 @@
 ## Description:
 A website that was developed as a functional portfolio page with deployed work samples, so that employers can review and assess samples of my work.
 
+![portfolio demo](./assets/screenshot.png)
+
 ## Installation
 N/A
 
