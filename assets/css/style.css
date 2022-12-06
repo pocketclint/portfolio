@@ -31,12 +31,21 @@ a {
     color: blanchedalmond;
 }
 
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../pcheader.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 header,
 footer {
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background-color: olive;
+    background-color: maroon;
 }
 
 header {
@@ -49,11 +58,14 @@ footer {
     margin-top: 0;
     bottom: 0;
     border-bottom: 10px solid bisque;
+    color: cornsilk;
 }
 
-figure {
-    margin-bottom: 40px;
+img {
+    max-height: 500px;
+    max-width: 500px;
 }
+
 
 section {
     margin-bottom: 0;
@@ -95,8 +107,6 @@ button {
     color: white;
 }
 
-
-/*Class Selectors*/
 .text-center {
     text-align: center;
 }
@@ -104,3 +114,10 @@ button {
 .text-right {
     text-align: right;
 }
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
