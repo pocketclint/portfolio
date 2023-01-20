@@ -11,6 +11,13 @@ body {
     color: black;
 }
 
+a:link,
+h2 {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 h1,
 h2 {
     margin: 20px;
@@ -121,3 +128,11 @@ button {
       flex-direction: column;
     }
   }
+
+  h2 {
+    justify-content: center;
+  }
+
+#aboutme {
+    text-align: center;
+}
